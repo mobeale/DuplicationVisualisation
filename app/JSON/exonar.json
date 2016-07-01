@@ -1,0 +1,848 @@
+{
+  "name": "Mathew Beale",
+  "children": [{
+      "name": "PDF",
+      "children": [{
+        "name": "PDF-1",
+        "size": 70
+        },
+        {
+        "name": "PDF-2",
+        "size": 150
+        },
+        {
+        "name": "health-and-safety.pdf",
+        "size": 6000
+        },
+        {
+        "name": "PDF-2",
+        "size": 150
+        },
+        {
+        "name": "PDF-3",
+        "size": 34
+        },
+        {
+        "name": "PDF-2",
+        "size": 1500
+        },
+        {
+        "name": "PDF-3",
+        "size": 34
+        },
+        {
+        "name": "PDF-2",
+        "size": 150
+        },
+        {
+        "name": "PDF-3",
+        "size": 34
+        },
+        {
+        "name": "PDF-2",
+        "size": 150
+        },
+        {
+        "name": "PDF-3",
+        "size": 34
+        },
+        {
+        "name": "PDF-4",
+        "size": 85
+            }],
+      "size": 300,
+      "language": "NA"
+  },
+  {
+      "name": "Word DOC",
+      "children": [{
+        "name": "Document-one.docx",
+        "size": 70
+        },
+        {
+        "name": "Document-two.docx",
+        "size": 1500
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 900
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 85
+        },
+        {
+        "name": "Document-two.docx",
+        "size": 150
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 2345
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 85
+        },
+        {
+        "name": "Document-two.docx",
+        "size": 15
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 34
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 8
+        },
+        {
+        "name": "Document-two.docx",
+        "size": 1780
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 34
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 946
+        },
+        {
+        "name": "Document-two.docx",
+        "size": 150
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 34
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 85
+        },
+        {
+        "name": "Document-two.docx",
+        "size": 1500
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 34
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 85
+        },
+        {
+        "name": "Document-two.docx",
+        "size": 1
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 34
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 52
+        },
+        {
+        "name": "Document-two.docx",
+        "size": 150
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 34
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 85
+        },
+        {
+        "name": "Document-two.docx",
+        "size": 150
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 34
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 85
+        },
+        {
+        "name": "holiday-form.docx",
+        "size": 8000
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 31
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 85
+        },
+        {
+        "name": "Document-two.docx",
+        "size": 150
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 34
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 85
+        },
+        {
+        "name": "Document-two.docx",
+        "size": 150
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 34
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 85
+        },
+        {
+        "name": "Document-two.docx",
+        "size": 11
+        },
+        {
+        "name": "Document-thee.docx",
+        "size": 34
+        },
+        {
+        "name": "Document-four.docx",
+        "size": 85
+        }
+          ],
+      "size": 300,
+      "language": "NA"
+  },
+  {
+      "name": "Powerpoint PPT",
+      "children": [{
+        "name": "powerpoint-one.ppt",
+        "size": 70
+        },
+        {
+        "name": "powerpoint-two.ppt",
+        "size": 150
+        },
+        {
+        "name": "powerpoint-three.ppt",
+        "size": 3400
+        },
+        {
+        "name": "powerpoint-two.ppt",
+        "size": 150
+        },
+        {
+        "name": "powerpoint-three.ppt",
+        "size": 34
+        },
+        {
+        "name": "powerpoint-two.ppt",
+        "size": 150
+        },
+        {
+        "name": "powerpoint-three.ppt",
+        "size": 34
+        },
+        {
+        "name": "powerpoint-two.ppt",
+        "size": 10
+        },
+        {
+        "name": "powerpoint-three.ppt",
+        "size": 1200
+        },
+        {
+        "name": "powerpoint-two.ppt",
+        "size": 150
+        },
+        {
+        "name": "powerpoint-three.ppt",
+        "size": 34
+        },
+        {
+        "name": "powerpoint-two.ppt",
+        "size": 150
+        },
+        {
+        "name": "powerpoint-three.ppt",
+        "size": 34
+        },
+        {
+        "name": "powerpoint-four.ppt",
+        "size": 850
+            }],
+      "size": 300,
+      "language": "NA"
+  },
+  {
+      "name": ".TXT",
+      "children": [{
+        "name": "textfile-one.txt",
+        "size": 70
+        },
+        {
+        "name": "passwords.txt",
+        "size": 1500
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 300
+        },
+        {
+        "name": "textfile-two.txt",
+        "size": 150
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 34
+        },
+        {
+        "name": "textfile-two.txt",
+        "size": 150
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 34
+        },
+        {
+        "name": "textfile-two.txt",
+        "size": 150
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 34
+        },
+        {
+        "name": "random-info.txt",
+        "size":2000
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 34
+        },
+        {
+        "name": "textfile-two.txt",
+        "size": 150
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 10
+        },
+        {
+        "name": "textfile-two.txt",
+        "size": 150
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 34
+        },
+        {
+        "name": "textfile-two.txt",
+        "size": 150
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 34
+        },
+        {
+        "name": "textfile-two.txt",
+        "size": 133
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 34
+        },
+        {
+        "name": "textfile-two.txt",
+        "size": 1
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 34
+        },
+        {
+        "name": "textfile-two.txt",
+        "size": 150
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 32
+        },
+        {
+        "name": "textfile-two.txt",
+        "size": 150
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 7
+        },
+        {
+        "name": "textfile-two.txt",
+        "size": 150
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 37
+        },
+        {
+        "name": "textfile-two.txt",
+        "size": 150
+        },
+        {
+        "name": "textfile-three.txt",
+        "size": 2
+        },
+        {
+        "name": "textfile-four.txt",
+        "size": 85
+            }],
+      "size": 300,
+      "language": "NA"
+  },
+  {
+      "name": "Photoshop PSD",
+      "children": [{
+        "name": "PSD-1",
+        "size": 70
+        },
+        {
+        "name": "PSD-2",
+        "size": 150
+        },
+        {
+        "name": "PSD-3",
+        "size": 34
+        },
+
+        {
+        "name": "PSD-2",
+        "size": 400
+        },
+        {
+        "name": "PSD-3",
+        "size": 34
+        },
+
+        {
+        "name": "PSD-2",
+        "size": 150
+        },
+        {
+        "name": "PSD-3",
+        "size": 34
+        },
+
+        {
+        "name": "PSD-2",
+        "size": 150
+        },
+        {
+        "name": "PSD-3",
+        "size": 34
+        },
+        {
+        "name": "PSD-4",
+        "size": 85
+            }],
+      "size": 300,
+      "language": "NA"
+  },
+  {
+      "name": "PNG",
+      "children": [{
+        "name": "image-1.png",
+        "size": 70
+        },
+        {
+        "name": "image-2.png",
+        "size": 150
+        },
+        {
+        "name": "image-3.png",
+        "size": 34
+        },
+        {
+        "name": "image-2.png",
+        "size": 1500
+        },
+        {
+        "name": "image-3.png",
+        "size": 34
+        },
+        {
+        "name": "logo.png",
+        "size": 2222
+        },
+        {
+        "name": "image-3.png",
+        "size": 34
+        },
+        {
+        "name": "image-2.png",
+        "size": 19
+        },
+        {
+        "name": "image-3.png",
+        "size": 11
+        },
+        {
+        "name": "image-2.png",
+        "size": 22
+        },
+        {
+        "name": "image-3.png",
+        "size": 77
+        },
+        {
+        "name": "image-2.png",
+        "size": 15
+        },
+        {
+        "name": "image-3.png",
+        "size": 340
+        },
+        {
+        "name": "image-4.png",
+        "size": 85
+            }],
+      "size": 300,
+      "language": "NA"
+  },
+  {
+      "name": "SVG",
+      "children": [{
+        "name": "image-1.svg",
+        "size": 70
+        },
+        {
+        "name": "image-2.svg",
+        "size": 150
+        },
+        {
+        "name": "image-3.svg",
+        "size": 34
+        },
+        {
+        "name": "image-2.svg",
+        "size": 150
+        },
+        {
+        "name": "image-3.svg",
+        "size": 34
+        },
+        {
+        "name": "image-2.svg",
+        "size": 150
+        },
+        {
+        "name": "image-3.svg",
+        "size": 34
+        },
+        {
+        "name": "logo.svg",
+        "size": 4000
+        },
+        {
+        "name": "image-3.svg",
+        "size": 34
+        },
+        {
+        "name": "image-2.svg",
+        "size": 150
+        },
+        {
+        "name": "image-3.svg",
+        "size": 34
+        },
+        {
+        "name": "image-2.svg",
+        "size": 150
+        },
+        {
+        "name": "image-3.svg",
+        "size": 34
+        },
+        {
+        "name": "image-2.svg",
+        "size": 150
+        },
+        {
+        "name": "image-3.svg",
+        "size": 34
+        },
+        {
+        "name": "image-2.svg",
+        "size": 150
+        },
+        {
+        "name": "image-3.svg",
+        "size": 750
+        },
+        {
+        "name": "image-2.svg",
+        "size": 150
+        },
+        {
+        "name": "image-3.svg",
+        "size": 34
+        },
+        {
+        "name": "image-2.svg",
+        "size": 150
+        },
+        {
+        "name": "image-3.svg",
+        "size": 34
+        },
+        {
+        "name": "image-2.svg",
+        "size": 150
+        },
+        {
+        "name": "image-3.svg",
+        "size": 34
+        },
+        {
+        "name": "image-2.svg",
+        "size": 1400
+        },
+        {
+        "name": "image-3.svg",
+        "size": 34
+        },
+        {
+        "name": "image-2.svg",
+        "size": 150
+        },
+        {
+        "name": "image-3.svg",
+        "size": 34
+        },
+        {
+        "name": "image-4.svg",
+        "size": 85
+            }],
+      "size": 300,
+      "language": "NA"
+  },
+  {
+      "name": "JPEG",
+      "children": [{
+        "name": "image-1.jpeg",
+        "size": 700
+        },
+        {
+        "name": "image-2.jpeg",
+        "size": 11
+        },
+        {
+        "name": "image-4.jpeg",
+        "size": 22
+        },
+        {
+        "name": "image-5.jpeg",
+        "size": 176
+        },
+        {
+        "name": "image-6.jpeg",
+        "size": 235
+        },
+        {
+        "name": "image-7.jpeg",
+        "size": 91
+        },
+        {
+        "name": "image-8.jpeg",
+        "size": 82
+        },
+        {
+        "name": "comapny-logo.jpeg",
+        "size": 4900
+        },
+        {
+        "name": "image-7.jpeg",
+        "size": 1
+        },
+        {
+        "name": "image-8.jpeg",
+        "size": 199
+        },
+        {
+        "name": "image-6.jpeg",
+        "size": 51
+        },
+        {
+        "name": "image-7.jpeg",
+        "size": 500
+        },
+        {
+        "name": "image-8.jpeg",
+        "size": 85
+        },
+        {
+        "name": "image-6.jpeg",
+        "size": 34
+        },
+        {
+        "name": "image-7.jpeg",
+        "size": 44
+        },
+        {
+        "name": "image-8.jpeg",
+        "size": 34
+        },
+        {
+        "name": "image-6.jpeg",
+        "size": 34
+        },
+        {
+        "name": "image-7.jpeg",
+        "size": 34
+        },
+        {
+        "name": "image-8.jpeg",
+        "size": 34
+        },
+        {
+        "name": "image-6.jpeg",
+        "size": 91
+        },
+        {
+        "name": "image-7.jpeg",
+        "size": 319
+        },
+        {
+        "name": "image-8.jpeg",
+        "size": 34
+        },
+        {
+        "name": "image-6.jpeg",
+        "size": 34
+        },
+        {
+        "name": "image-7.jpeg",
+        "size": 34
+        },
+        {
+        "name": "image-8.jpeg",
+        "size": 340
+        },
+        {
+        "name": "image-6.jpeg",
+        "size": 100
+        },
+        {
+        "name": "image-7.jpeg",
+        "size": 34
+        },
+        {
+        "name": "image-8.jpeg",
+        "size": 122
+        },
+        {
+        "name": "image-6.jpeg",
+        "size": 123
+        },
+        {
+        "name": "image-7.jpeg",
+        "size": 34
+        },
+        {
+        "name": "image-8.jpeg",
+        "size": 34
+        },
+        {
+        "name": "image-9.jpeg",
+        "size": 2
+            }],
+      "size": 900,
+      "language": "NA"
+  },
+  {
+      "name": "Excel",
+      "children": [{
+        "name": "spreadsheet-1.csv",
+        "size": 70
+        },
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 150
+        },
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 34
+        },
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 34
+        },
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 34
+        },
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 34
+        },
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 34
+        },
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 34
+        },
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 34
+        },
+
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 845
+        },
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 34
+        },
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 345
+        },
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 34
+        },
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 243
+        },
+
+        {
+        "name": "spreadsheet-1.csv",
+        "size": 85
+            }
+
+
+          ],
+      "size": 300,
+      "language": "NA"
+  }
+
+],
+
+
+
+
+  "size": 0,
+  "filetype": "user"
+
+
+
+}

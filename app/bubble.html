@@ -1,0 +1,157 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DuplicationTree</title>
+    <style type="text/css">
+    </style>
+    <style>
+
+    text {
+      font: 10px sans-serif;
+    }
+
+    </style>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+
+
+    <div class="container-fluid">
+
+<div class="col-lg-offset-1 col-lg-10">
+  <div class="header">
+    <ul class="nav nav-pills pull-right">
+      <li class="active"><a href="/index.html">Home</a></li>
+
+    </ul>
+    <h3 class="text-muted">DuplicationTree</h3>
+  </div>
+
+      <div class="jumbotron">
+
+        <script>
+
+        var diameter = 960,
+            format = d3.format(",d"),
+            color = d3.scale.category20c();
+
+        var bubble = d3.layout.pack()
+            .sort(null)
+            .size([diameter, diameter])
+            .padding(1.5);
+
+        var svg = d3.select(".jumbotron").append("svg")
+            .attr("width", diameter)
+            .attr("height", diameter)
+            .attr("class", "bubble");
+
+        d3.json("JSON/bubble.json", function(error, root) { if (error) throw error;
+          var node = svg.selectAll(".node")
+              .data(bubble.nodes(classes(root))
+              .filter(function(d) { return !d.children; }))
+            .enter().append("g")
+              .attr("class", "node")
+              .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+          node.append("title")
+              .text(function(d) { return d.className + ": " + format(d.value); });
+
+          node.append("circle")
+              .attr("r", function(d) { return d.r; })
+              .style("fill", function(d) { return color(d.packageName); });
+
+          node.append("text")
+              .attr("dy", ".3em")
+              .style("text-anchor", "middle")
+              .text(function(d) { return d.className.substring(0, d.r / 3); });
+        });
+
+        // Returns a flattened hierarchy containing all leaf nodes under the root.
+        function classes(root) {
+          var classes = [];
+
+          function recurse(name, node) {
+            if (node.children) node.children.forEach(function(child) { recurse(node.name, child); });
+            else classes.push({packageName: name, className: node.name, value: node.size});
+          }
+
+          recurse(null, root);
+          return {children: classes};
+        }
+
+        d3.select(self.frameElement).style("height", diameter + "px");
+
+        </script>
+
+</div>
+
+
+   </body>
+
+
+
+
+
+
+      <div class="footer">
+        <p>Exonar</p>
+      </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+</script>
+
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+<!-- <script src="/bower_components/d3/d3.js"></script> -->
+
+
+
+
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+
+    <!-- endbuild -->
+  </body>
+</html>
