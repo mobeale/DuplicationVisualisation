@@ -1,9 +1,3 @@
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script>
-
-var diameter = 960,
-    format = d3.format(",d"),
-    color = d3.scale.category20c();
 
 var bubble = d3.layout.pack()
     .sort(null)

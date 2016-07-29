@@ -27,6 +27,46 @@
         "size": 1500
         },
         {
+        "name": "PDF-2",
+        "size": 150
+        },
+        {
+        "name": "health-and-safety.pdf",
+        "size": 1000
+        },
+        {
+        "name": "PDF-2",
+        "size": 150
+        },
+        {
+        "name": "PDF-3",
+        "size": 34
+        },
+        {
+        "name": "PDF-2",
+        "size": 1500
+        },
+        {
+        "name": "PDF-2",
+        "size": 150
+        },
+        {
+        "name": "health-and-safety.pdf",
+        "size": 600
+        },
+        {
+        "name": "PDF-2",
+        "size": 150
+        },
+        {
+        "name": "PDF-3",
+        "size": 34
+        },
+        {
+        "name": "PDF-2",
+        "size": 1500
+        },
+        {
         "name": "PDF-3",
         "size": 34
         },
@@ -50,7 +90,7 @@
         "name": "PDF-4",
         "size": 85
             }],
-      "size": 300,
+      "size": 3000,
       "language": "NA"
   },
   {

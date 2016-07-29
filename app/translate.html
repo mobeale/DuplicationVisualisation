@@ -1,0 +1,187 @@
+<!doctype html>
+
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Site</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+
+  <link rel="stylesheet" href="styles/bootstrap-responsive.min.css">
+
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <!-- <script src="/bower_components/modernizr/modernizr.js"></script> -->
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <div class="container-fluid">
+    <div class="header">
+      <ul class="nav nav-pills pull-right">
+        <li class="active"><a href="/index.html">Home</a></li>
+
+      </ul>
+      <h3 class="text-muted">ExonarTranslate v1</h3>
+    </div>
+
+
+
+
+
+
+    <div class="jumbotron">
+
+      <img src="images/EXONARpng.png" style="width: 400px; height: 90px;">
+
+
+
+
+    </div>
+
+    <div class="col-sm-8 col-sm-offset-2">
+
+
+
+      <div class="jumbotron">
+        <h4 style="padding-bottom:10px"> Google Translate API </h4>
+        <div>
+          <b>Source Langugage:</b>
+
+          <select id="source">
+            <option value="fr">French</option>
+            <option value="de">Germany</option>
+            <option value="en">English</option>
+
+          </select>
+
+
+          <b>Target Langugage:</b>
+
+          <select id="target">
+            <option value="en">English</option>
+            <option value="de">Germany</option>
+            <option value="fr">French</option>
+
+          </select>
+
+        </div>
+        <br>
+
+
+        <div class="input-group input-group-lg">
+          <input class="form-control" type="text" id="text" value="
+Bonjour comment vas tu aujourd'hui? mon nom est mat et je travaille au Exonar">
+          <a class="btn-large btn-success input-group-addon" onclick="goTranslate()">Translate</a>
+        </div>
+
+
+
+        <b>Translated Text:</b>
+        <h2 id="translated"></h2>
+
+      </div>
+
+
+      <script>
+        function goTranslate() {
+          $.get("https://www.googleapis.com/language/translate/v2", {
+              key: "AIzaSyBzCrtdS_f_G8pSQamcwVt5cd_07bWphp4",
+              source: $("#source").val(),
+              target: $("#target").val(),
+              q: $("#text").val()
+            },
+
+            function(response)
+
+            {
+              $("#translated").html(response.data.translations[0].translatedText);
+
+            }, "json").fail(function(jqXHR, textStatus, errorThrown) {
+            alert("error :" + errorThrown);
+          });
+        }
+      </script>
+
+
+
+
+
+
+
+
+
+
+      <div class="jumbotron">
+
+
+        <script type="text/javascript">
+          function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+              pageLanguage: 'fr',
+              includedLanguages: 'af,ar,de,en,es,fr,hu,it,ja,no,ro,ru,tr,zh-CN',
+              layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+              autoDisplay: false
+            }, 'google_translate_element');
+          }
+
+          function loadGoogleTranslate() {
+            var googleTranslateScript = document.createElement('script');
+            googleTranslateScript.type = 'text/javascript';
+            googleTranslateScript.async = true;
+            googleTranslateScript.src = 'http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(googleTranslateScript);
+          }
+        </script>
+        <h4 style="padding-bottom:10px"> Google Translate Widget </h4>
+
+        <a class="btn btn-success" style="margin-bottom: 20px; margin-left:75%" onclick="loadGoogleTranslate()">Translate</a>
+
+        <p id="google_translate_element">Sa rivale Hillary Clinton empêtrée dans le scandale retentissant de sa messagerie électronique, Donald Trump avait le champ libre pour grignoter son retard dans la course à la Maison-Blanche. Sa langue bien pendue et l'utilisation compulsive de
+          Twitter vont-elles le condamner aux mêmes tourments politico-judiciaires que Clinton? Mercredi soir, dans les travées de la convention nationale démocrate, à Philadelphie, la question était sur toutes les lèvres: pour avoir appelé ouvertement
+          la Russie à «mettre la main» sur les 33.000 e-mails manquants de Hillary Clinton, incitant littéralement une puissance étrangère à commettre un acte de cyberespionnage contre les intérêts américains, le candidat républicain s'exposerait-il potentiellement
+          à d'éventuelles poursuites pénales, sur la foi d'une enquête du FBI et au nom d'une atteinte à la sécurité nationale?</p>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+  </div>
+
+
+
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+
+
+
+
+  </div>
+
+
+
+</body>
+
+</html>
